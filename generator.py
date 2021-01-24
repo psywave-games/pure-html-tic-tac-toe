@@ -70,7 +70,7 @@ class Stroke:
         winner |= self.table[6] == self.table[7] and self.table[7] == self.table[8] and self.table[8] != '&nbsp;'
         # Diagonal detect
         winner |= self.table[0] == self.table[4] and self.table[4] == self.table[8] and self.table[8] != '&nbsp;'
-        winner |= self.table[3] == self.table[4] and self.table[4] == self.table[6] and self.table[6] != '&nbsp;'
+        winner |= self.table[2] == self.table[4] and self.table[4] == self.table[6] and self.table[6] != '&nbsp;'
         # Verical detect
         winner |= self.table[0] == self.table[3] and self.table[3] == self.table[6] and self.table[6] != '&nbsp;'
         winner |= self.table[1] == self.table[4] and self.table[4] == self.table[7] and self.table[7] != '&nbsp;'
