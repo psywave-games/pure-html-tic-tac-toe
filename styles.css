@@ -1,0 +1,27 @@
+table {
+    text-align: center;
+    margin: 10px auto;
+    max-width: 600px;
+}
+
+.border {
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+}
+
+#foo {
+    border-top: 0;
+}
+
+#bar {
+    border-left: 0;
+}
+
+#baz {
+    border-right: 0;
+}
+
+#z {
+    border-bottom: 0;
+}

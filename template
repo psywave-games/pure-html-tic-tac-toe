@@ -1,0 +1,20 @@
+---
+layout: {layout}
+---
+<table>
+    <tr>
+        <td><a href="{links[0]}">{table[0]}</a></td>
+        <td class="border" id="foo"><a href="{links[1]}">{table[1]}</a></td>
+        <td><a href="{links[2]}">{table[2]}</a></td>
+      </tr>
+    <tr>
+      <td class="border" id="bar"><a href="{links[3]}">{table[3]}</a></td>
+      <td class="border"><a href="{links[4]}">{table[4]}</a></td>
+      <td class="border" id="baz"><a href="{links[5]}">{table[5]}</a></td>
+    </tr>
+    <tr>
+      <td><a href="{links[6]}">{table[6]}</a></td>
+      <td class="border" id="z"><a href="{links[7]}">{table[7]}</a></td>
+      <td><a href="{links[8]}">{table[8]}</a></td>
+    </tr>
+</table>

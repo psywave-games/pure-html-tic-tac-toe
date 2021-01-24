@@ -1,0 +1,17 @@
+title: Tic Tac Toe
+
+baseurl: "/pure-html-tic-tac-toe"
+
+plugins:
+  - jekyll-seo-tag
+
+exclude:
+   - .sass-cache/
+   - .jekyll-cache/
+   - gemfiles/
+   - Gemfile
+   - Gemfile.lock
+   - generator.py
+   - template
+   - README.md
+   - LICENSE
