@@ -1,9 +1,8 @@
 title: Tic Tac Toe
+description:
+   Game Tic Tac Toe building only with HTML5 using half a million of static web page files.
 
 baseurl: "/pure-html-tic-tac-toe"
-
-plugins:
-  - jekyll-seo-tag
 
 exclude:
    - .sass-cache/

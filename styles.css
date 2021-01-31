@@ -1,5 +1,41 @@
-table {
+body {
+    background-color: #52D99F;
+    font-family: roboto;
     text-align: center;
+    margin: 10px auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+td a:not([href]) {
+    cursor: not-allowed;
+}
+
+td a[href]:hover{
+    animation: clickme 0.8s infinite;
+}
+
+td a {
+    color: white;
+    display: block;
+    width: 25vmin;
+    font-size: 25vmin;
+}
+
+td {
+    margin: 0;
+    padding: 0; 
+    background-color: #58007D;
+}
+
+table {
+    background-color: #FFFFFF;
+    border-collapse: collapse;
+    vertical-align: middle;
+    text-align: center;
+    border-spacing: 0;
     margin: 10px auto;
     max-width: 600px;
 }
@@ -7,21 +43,33 @@ table {
 .border {
     border-style: solid;
     border-width: 5px;
-    border-color: black;
+    border-color: white;
+    background-color: #C259FF;
 }
 
-#foo {
+#foo, #z {
     border-top: 0;
+    border-bottom: 0;
 }
 
-#bar {
+#bar, #baz {
+    border-right: 0;
     border-left: 0;
 }
 
-#baz {
-    border-right: 0;
+@keyframes clickme {
+    0%,100% {background-color: rgba(0,0,0,0);}
+    50% {background-color: rgba(255,255,255,0.64);}
 }
 
-#z {
-    border-bottom: 0;
+.button {
+    margin: 8px;
+    padding: 16px;
+    color: white;
+    border-radius: 16px;
+    background-color: #58007D;
+}
+
+.button:hover {
+    opacity: 0.75;
 }

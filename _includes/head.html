@@ -1,0 +1,16 @@
+<title>{{ site.title }}</title>
+<meta name="generator" content="Python"/>
+<meta property="og:title" content="{{ site.title }}"/>
+<meta property="og:locale" content="en_US"/>
+<meta name="description" content="{{ site.description }}"/>
+<meta property="og:description" content="{{ site.description }}"/>
+<meta property="og:site_name" content="{{ site.title }}"/>
+<meta name="twitter:card" content="summary"/>
+<meta property="twitter:title" content="{{ site.title }}"/>
+<script type="application/ld+json">
+{"@type":"WebPage","headline":"{{ site.title }}","url":"{{ site.url | absolute_url }}","description":"{{ site.description }}","@context":"https://schema.org"}
+</script>
+
+<script src="{{ '/copy.js' | relative_url }}"></script> 
+<link rel="stylesheet" href="{{ '/styles.css' | relative_url }}">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400"/>
